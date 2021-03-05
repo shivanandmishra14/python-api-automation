@@ -1,0 +1,14 @@
+{
+    "Name": "Shiva",
+    "Age": "28",
+    "Addresscity": ["Bengaluru", "Allahabad", "Delhi", "Chennai", "Kochi"],
+    "Pincode": {
+        "Allahabad": "211001",
+        "Chennai": "600093",
+        "Bengaluru": "560093",
+        "Delhi": "110001",
+        "Kochi": {
+            "Tirrusur": "000000"
+        }
+    }
+}
