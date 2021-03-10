@@ -3,6 +3,7 @@ import json
 import jsonpath
 
 # Put request to Update resource or value in an existing API
+# t request to Update resource or value in an existing API
 
 url = 'https://reqres.in/api/users/2'
 
