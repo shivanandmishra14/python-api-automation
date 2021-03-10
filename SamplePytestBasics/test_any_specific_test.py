@@ -17,3 +17,5 @@ def test_conditional_invalid_data():
     path = "/Users/b0222643/node_modules/chromedriver/lib/chromedriver/chromedriver"
     driver = Chrome(executable_path=path)
     driver.get('http://www.thetestingworld.com/testings')
+
+    
