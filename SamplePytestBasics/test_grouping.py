@@ -9,10 +9,10 @@ import pytest
 
 @pytest.mark.Smoke
 def test_conditional_valid_data():
-path = "/Users/b0222643/node_modules/chromedriver/lib/chromedriver/chromedriver"
-driver = Chrome(executable_path=path)
-driver.get('http://www.thetestingworld.com/testings')
-driver.maximize_window()
+   path = "/Users/b0222643/node_modules/chromedriver/lib/chromedriver/chromedriver"
+   driver = Chrome(executable_path=path)
+   driver.get('http://www.thetestingworld.com/testings')
+   driver.maximize_window()
 
 
 @pytest.mark.Sanity
