@@ -56,4 +56,3 @@ def test_fetch_student_data():
     print(id)
 
 
-
