@@ -1,5 +1,3 @@
-from wsgiref import headers
-
 import requests
 from requests.auth import HTTPBasicAuth
 import json
