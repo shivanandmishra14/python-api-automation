@@ -1,6 +1,7 @@
 import requests
 import json
 import openpyxl
+import pytest
 
 
 # For reading data from excel we need library calle Openpyxl.
