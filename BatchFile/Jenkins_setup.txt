@@ -10,3 +10,12 @@ These variables are either set by the shell/system.
 For WINDOWS:
 Job->Build->Execute Windows batch command->"set Path=%Python_Home%;Path%"->Save it 
 
+FOR MAC BATCH FILE/Shell file:
+"/bin/sh -e -x " Job->Build->Execute shell and save it 
+
+FOr windows  adding batch file:
+Job->Build->Execute Windows batch command->
+"C:\Program Files (x86)\Jenkins" "C:\Users\Admin\workspace\demoWork\run.bat"
+
+
+
