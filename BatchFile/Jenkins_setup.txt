@@ -25,6 +25,8 @@ Job->Build->Execute shell
 "exit 0" to remove memory after execution
 
 
-Generate Allure report
+Generate Allure report 
+Job->Build->Execute shell
+pytest --alluredir=./Report Data_Driven_TC
 
-
+and in Post build action  select allure report and Give path as Report(Foldername)
