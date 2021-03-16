@@ -19,3 +19,12 @@ Job->Build->Execute Windows batch command->
 
 
 
+For prticular thing on Jenkins 
+Job->Build->Execute shell
+"pytest Student_Test_Cases"
+"exit 0" to remove memory after execution
+
+
+Generate Allure report
+
+
