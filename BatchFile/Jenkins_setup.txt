@@ -1,0 +1,12 @@
+For MAC:
+For environment variable just write "env" in Job->Build->Execute shell and save it 
+
+The environment variables displayed in Jenkins (Manage Jenkins -> System information) are inherited from the system (i.e. inherited environment variables)
+
+If you run env command in a shell you should see the same environment variables as Jenkins shows.
+
+These variables are either set by the shell/system.
+
+For WINDOWS:
+Job->Build->Execute Windows batch command->"set Path=%Python_Home%;Path%"->Save it 
+
